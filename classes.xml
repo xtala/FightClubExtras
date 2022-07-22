@@ -13,6 +13,9 @@
             <ref>0</ref>
             <will>2</will>
             <feature>
+                <text>At each level beyond 1st, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in an arcane spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one arcane spellcasting class before becoming a nightmare spinner, you must decide to which class to add each level for the purpose of determining spells per day, caster level, and spells known.</text>
+            </feature>
+            <feature>
                 <name>Bonus Spells (Ex)</name>
                 <text>If you normally prepare spells, you can prepare and cast one additional illusion spell per spell level each day. This ability works just like (and stacks with) a specialist wizard's extra school spell.</text>
                 <text>If you don't need to prepare spells, you gain one extra spell slot per spell level, which can be used only to cast an illusion spell.</text>
