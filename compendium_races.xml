@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<race><name>Gray Elf</name>
-    <size>M</size>
-    <speed>30</speed>
-    <ability>Dexterity 2, Intelligence 2, Stregnth -2, Constitution -2</ability>
-    <trait>
-        <name>Ability scores</name>
-        <text>+2 Dexterity, +2 Intelligence, -2 Strength, -2 Constitution</text>
-    </trait>
-    <trait>
-        <name>Fey Ancestry</name>
-        <text>Immunity to sleep spells and effects, and a +2 racial saving throw bonus against enchantment spells or effects</text>
-    </trait>
-    <trait>
-        <name>Low-light vision</name>
-        <text>An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.</text>
-    </trait>
-    <trait>
-        <name>Weapon Proficiency</name>
-        <text>Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats. Elves esteem the arts of swordplay and archery, so all elves are familiar with these weapons.</text>
-    </trait>
-    <trait>
-        <name>Keen Senses</name>
-        <text>+2 racial bonus on Listen, Search, and Spot checks, An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it. An elf’s senses are so keen that she practically has a sixth sense about hidden portals.</text>
-        <modifier category="Skill">Listen +2</modifier>
-        <modifier category="Skill">Search +2</modifier>
-        <modifier category="Skill">Spot +2</modifier>
-    </trait>
-    <trait>
-        <name>Languages</name>
-        <text>Common and Elven. Bonus Languages: Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan. Elves commonly know the languages of their enemies and of their friends, as well as Draconic, the languag</text>
-    </trait>
-    <trait>
-        <name>Favored class</name>
-        <text>Wizard. A multiclass elf’s wizard class does not count when determining whether she takes an experience point penalty for multiclassing.</text>
-    </trait>
-</race>
+<compendium version="3">
+    <race><name>Gray Elf</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Dexterity 2, Intelligence 2, Stregnth -2, Constitution -2</ability>
+        <trait>
+            <name>Ability scores</name>
+            <text>+2 Dexterity, +2 Intelligence, -2 Strength, -2 Constitution</text>
+        </trait>
+        <trait>
+            <name>Fey Ancestry</name>
+            <text>Immunity to sleep spells and effects, and a +2 racial saving throw bonus against enchantment spells or effects</text>
+        </trait>
+        <trait>
+            <name>Low-light vision</name>
+            <text>An elf can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.</text>
+        </trait>
+        <trait>
+            <name>Weapon Proficiency</name>
+            <text>Elves receive the Martial Weapon Proficiency feats for the longsword, rapier, longbow (including composite longbow), and shortbow (including composite shortbow) as bonus feats. Elves esteem the arts of swordplay and archery, so all elves are familiar with these weapons.</text>
+        </trait>
+        <trait>
+            <name>Keen Senses</name>
+            <text>+2 racial bonus on Listen, Search, and Spot checks, An elf who merely passes within 5 feet of a secret or concealed door is entitled to a Search check to notice it as if she were actively looking for it. An elf's senses are so keen that she practically has a sixth sense about hidden portals.</text>
+            <modifier category="Skill">Listen +2</modifier>
+            <modifier category="Skill">Search +2</modifier>
+            <modifier category="Skill">Spot +2</modifier>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>Common and Elven. Bonus Languages: Draconic, Gnoll, Gnome, Goblin, Orc, and Sylvan. Elves commonly know the languages of their enemies and of their friends, as well as Draconic, the languag</text>
+        </trait>
+        <trait>
+            <name>Favored class</name>
+            <text>Wizard. A multiclass elf's wizard class does not count when determining whether she takes an experience point penalty for multiclassing.</text>
+        </trait>
+    </race>
+</compendium>
