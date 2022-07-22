@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="3">
+    <prestige>
+        <name>Nightmare Spinner</name>
+        <hd>d4</hd>
+        <skills>Bluff, Concentration, Decipher Script, Diplomacy, Intimidate, Knowledge (arcana), Knowledge (architecture and engineering), Knowledge (dungeoneering), Knowledge (geography), Knowledge (history), Knowledge (local), Knowledge (nature), Knowledge (nobility and royalty), Knowledge (psionics), Knowledge (religion), Knowledge (the planes), Profession, Search, Sense Motive, Spellcraft</skills>
+        <skillPoints>4 + Int</skillPoints>
+        <spellAbility>Charisma</spellAbility>
+
+        <autolevel level="1">
+            <bab>0</bab>
+            <fort>0</fort>
+            <ref>0</ref>
+            <will>2</will>
+            <slots optional="yes">0,0,0,0,0</slots>
+            <feature>
+                <name>Bonus Spells (Ex)</name>
+                <text>If you normally prepare spells, you can prepare and cast one additional illusion spell per spell level each day. This ability works just like (and stacks with) a specialist wizard's extra school spell.</text>
+                <text>If you don't need to prepare spells, you gain one extra spell slot per spell level, which can be used only to cast an illusion spell.</text>
+            </feature>
+            <feature>
+                <name>Immunity to fear (Su)</name>
+                <text>Beginning at 1st level, you gain immunity to all fear effects.</text>
+            </feature>
+            <feature>
+                <name>Inspire fear (Su)</name>
+                <text>As a standard action, you can create a mind-affecting fear effect that makes a living creature within 30 feet ill at ease. The target becomes shaken for a number of rounds equal to your nightmare spinner class level; a successful Will save (DC 10 + your class level + your Cha modifier) halves this duration.</text>
+                <text>You can use this power a number of times per day equal to 3 + your Cha modifier. Multiple uses of this ability on the same creature don't stack.</text>
+            </feature>
+        </autolevel>
+        <autolevel level="2">
+            <bab>1</bab>
+            <fort>0</fort>
+            <ref>0</ref>
+            <will>3</will>
+            <slots optional="yes">6,4,4,4,2</slots>
+            <feature>
+                <name>Nightmare Phantasm (Su)</name>
+                <text>Beginning at 2nd level, when you cast a figment or glamer spell, you can choose to weave a thread of nightmare phantasm into it as a free action. The spell gains the phantasm descriptor. Each time any enemy attempts a Will save to disbelieve the affected illusion spell, a tiny portion of the spell transforms into a phantasm effect that targets that enemy. The enemy becomes shaken for 1 round (no save). This ability has no other effect on the original spell's duration or effectiveness.</text>
+                <text>You can use this ability a number of times per day equal to 3 + your Cha modifier. No creature can be affected by your nightmare phantasm ability more than once in a 24-hour period. This is a mind-affecting fear effect.</text>
+            </feature>
+        </autolevel>>
+        <autolevel level="3">
+            <bab>1</bab>
+            <fort>1</fort>
+            <ref>1</ref>
+            <will>3</will>
+            <slots optional="yes">6,4,4,4,2</slots>
+            <feature>
+                <name>Spirit Chill (Su)</name>
+                <text>Beginning at 3rd level, creatures affected by a fear effect you cause (whether by a spell, class feature, or other effect) take nonlethal damage as well, depending on the potency of the fear created. Any creature that is shaken takes 1d6 points of nonlethal damage. A creature that becomes frightened takes 2d6 points of nonlethal damage,while a creature that becomes panicked takes 3d6 points of nonlethal damage.</text>   
+            </feature>
+        </autolevel>
+        <autolevel level="4">
+            <bab>2</bab>
+            <fort>1</fort>
+            <ref>1</ref>
+            <will>4</will>
+            <slots optional="yes">6,4,4,4,2</slots>
+        </autolevel>
+        <autolevel level="5">
+            <bab>2</bab>
+            <fort>1</fort>
+            <ref>1</ref>
+            <will>4</will>
+            <slots optional="yes">6,4,4,4,2</slots>
+            <feature>
+                <name>Deadly Nightmare (Su)</name>
+                <text> At 5th level, you can create a mind-affecting fear effect that can make a living creature literally drop dead. You can target one living creature within 30 feet of you, which must succeed on a Will save (DC 10 + your class level + your Cha modifier) or literally die of fright. Even if the save succeeds, the subject is panicked for 1 round. Any creature whose Hit Dice exceed twice your character level is unaffected by this power. This is a mind-affecting fear death effect. You can use this power three times per day.</text>   
+            </feature>
+        </autolevel>
+    </prestige>
+</compendium>
