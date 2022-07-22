@@ -2,19 +2,19 @@
 <compendium version="3">
     <prestige>
         <name>Nightmare Spinner</name>
-        <hd>d4</hd>
+        <hd>4</hd>
         <skills>Bluff, Concentration, Decipher Script, Diplomacy, Intimidate, Knowledge (arcana), Knowledge (architecture and engineering), Knowledge (dungeoneering), Knowledge (geography), Knowledge (history), Knowledge (local), Knowledge (nature), Knowledge (nobility and royalty), Knowledge (psionics), Knowledge (religion), Knowledge (the planes), Profession, Search, Sense Motive, Spellcraft</skills>
         <skillPoints>4 + Int</skillPoints>
         <spellAbility>Charisma</spellAbility>
-
+        <feat>
+            <name>Spellcasting</name>
+            <text>At each level beyond 1st, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in an arcane spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one arcane spellcasting class before becoming a nightmare spinner, you must decide to which class to add each level for the purpose of determining spells per day, caster level, and spells known.</text>
+        </feat>
         <autolevel level="1">
             <bab>0</bab>
             <fort>0</fort>
             <ref>0</ref>
             <will>2</will>
-            <feature>
-                <text>At each level beyond 1st, you gain new spells per day and an increase in caster level (and spells known, if applicable) as if you had also gained a level in an arcane spellcasting class to which you belonged before adding the prestige class level. You do not, however, gain any other benefit a character of that class would have gained. If you had more than one arcane spellcasting class before becoming a nightmare spinner, you must decide to which class to add each level for the purpose of determining spells per day, caster level, and spells known.</text>
-            </feature>
             <feature>
                 <name>Bonus Spells (Ex)</name>
                 <text>If you normally prepare spells, you can prepare and cast one additional illusion spell per spell level each day. This ability works just like (and stacks with) a specialist wizard's extra school spell.</text>
