@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="3">
+    <item>
+        <name>Healing Belt</name>
+        <type>w</type>
+        <value>750</value>
+        <weight>1 lb</weight>
+        <text>This broad leather belt is studded with three moonstones.</text>
+        <text>While wearing a healing belt, you gain a +2 competence bonus on Heal checks. This is a continuous effect and requires no activation.</text>
+        <text>In addition, the belt has 3 charges, which are renewed each day at dawn. Spending 1 or more charges allows you to channel positive energy and heal damage with a touch. (You can also use this ability to harm undead, dealing them an equivalent amount of damage instead.)</text>
+        <text>1 charge: Heals 2d8 points of damage. 2 charges: Heals 3d8 points of damage. 3 charges: Heals 4d8 points of damage.</text>
+        <modifier category="skill">Heal +2</modifier>
+    </item>
+</compendium>
